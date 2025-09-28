@@ -9,6 +9,8 @@ function TodoList({ todos, setTodos }) {
     if (filter === "done") return todo.completed;
     if (filter === "not-done") return !todo.completed;
     return true;
+
+    //Wth
   });
 
   const toggleCompleted = (id) => {
