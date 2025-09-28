@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import TodoItem from "./TodoItem.jsx";
+import ToDoItem from "./TodoItem.jsx";
 
 function TodoList({ todos, setTodos }) {
   const [filter, setFilter] = useState("all");
